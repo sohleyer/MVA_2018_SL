@@ -1,5 +1,6 @@
 import os
 import csv
+import pandas as pd
 
 
 def _check_log_directory(directory):
@@ -23,3 +24,12 @@ def _initialise_model_log(log_filepath):
             'Feature function config', 'Feature function training time', 
             'Model config', 'Model training time']]
             a.writerows(data)
+
+
+def _read_model_log(log_dir, directories, filename):
+    results = []
+    for directory in directories:
+        directory_path = os.path.join(log_dir,directory,filename)
+        results.append(pd.read_csv(directory_path, sep=','))
+    overall_results = pd.concat(results)
+    return overall_results
