@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1512137038 "packages.tex" "packages.pdf" "packages" 1512137038
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1479570230 3873398 b7d5f6ea20c1b90bfe530084364d0ab6 ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "packages.aux" 1512137038 8 a94a2480d3289e625eea47cd1b285758 ""
+  "packages.tex" 1512137038 1707 23e2b1be4f57965dedd8ee820b584c79 ""
+  (generated)
+  "packages.pdf"
+  "packages.log"
