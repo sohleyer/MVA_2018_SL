@@ -1,0 +1,77 @@
+%%%%
+% Provide the command \fpeval as a copy of the code-level \fp_eval:n.
+\usepackage{expl3}[2012-07-08]
+\ExplSyntaxOn
+\cs_new_eq:NN \fpeval \fp_eval:n
+\ExplSyntaxOff
+%%%%
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[margin=1in]{geometry}
+\usepackage[top=3cm, bottom=3cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{titlesec}
+\titlespacing\subsection{0pt}{10pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\paragraph{0pt}{6pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[siunitx]{circuitikz}
+\usepackage[colorinlistoftodos, color=orange!50]{todonotes}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{fancybox}
+\usepackage{epsfig}
+\usepackage{soul}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{enumitem}
+\usepackage{subcaption}
+
+\usepackage{listings,lstautogobble}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+
+%%% Maths packages setup %%%
+\usepackage{amsfonts,amssymb,dsfont,amsmath,mathtools,amsthm,stmaryrd,bm,array}
+    \newtheoremstyle{break}{.3cm}{.3cm}{\itshape}{}{\bfseries}{}{\newline}{}
+    \theoremstyle{break} 
+    \newtheorem{theorem}{Theorem}[section]
+    \newtheorem{lemma}[theorem]{Lemma}
+    \newtheorem{proposition}[theorem]{Proposition}
+    \newtheorem{definition}[theorem]{Definition}
+    \newtheoremstyle{break_rem}{.3cm}{.3cm}{}{}{\it}{}{\newline}{}
+    \theoremstyle{break_rem}
+    \newtheorem{remark}[theorem]{Remark}
+    \newtheorem{corollary}[theorem]{Corollary}
+
+% Independence symbol
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+
+%%% Algorithms %%%
+\usepackage{algorithm,algorithmic,eqparbox}
+\renewcommand\algorithmiccomment[1]{\hfill\#\ \eqparbox{COMMENT}{#1}}
+
+%%% Images and figures
+\usepackage{tikz,caption}
+\usepackage{graphicx}
+
+%%% Matlab code
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style}, 
+    autogobble=true   
+}
+

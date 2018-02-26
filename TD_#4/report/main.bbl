@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{aetilleyGitHub}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d7e68f89f4901c0a04b7309cba9b5ec8}{%
+           family={aetilley},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7e68f89f4901c0a04b7309cba9b5ec8}
+      \strng{fullhash}{d7e68f89f4901c0a04b7309cba9b5ec8}
+      \field{labelalpha}{aet}
+      \field{sortinit}{a}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/aetilley/pcfg}}
+      \field{title}{{A Python pcfg object that consumes tree-banks in order to be trained and parses raw text into the same tree format}}
+    \endentry
+    \entry{parseval}{article}{}
+      \name{author}{15}{}{%
+        {{hash=59df3c3f8a011fe87211227cc009f936}{%
+           family={Black},
+           family_i={B\bibinitperiod},
+           given={Ezra},
+           given_i={E\bibinitperiod}}}%
+        {{hash=26b58d5eddd63309d60204471e33dedf}{%
+           family={Abney},
+           family_i={A\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+        {{hash=66f85124f51de0e2f7d33884f28fff5b}{%
+           family={Flickinger},
+           family_i={F\bibinitperiod},
+           given={Dan},
+           given_i={D\bibinitperiod}}}%
+        {{hash=d6135b0ede996102bf6c0545250850cd}{%
+           family={Gdaniec},
+           family_i={G\bibinitperiod},
+           given={Claudia},
+           given_i={C\bibinitperiod}}}%
+        {{hash=3d96e426faa039bfa33eb6e4c54e8a77}{%
+           family={Grishman},
+           family_i={G\bibinitperiod},
+           given={Ralph},
+           given_i={R\bibinitperiod}}}%
+        {{hash=d715b938a0d1a6ffba91bcae5df3386a}{%
+           family={Harrison},
+           family_i={H\bibinitperiod},
+           given={Phil},
+           given_i={P\bibinitperiod}}}%
+        {{hash=35c29c5c5e289fb63e6296a64f8effa2}{%
+           family={Hindle},
+           family_i={H\bibinitperiod},
+           given={Don},
+           given_i={D\bibinitperiod}}}%
+        {{hash=98caf00e1da109f4b883233679361f85}{%
+           family={Ingria},
+           family_i={I\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=0cedd18e93afa856ef9146ea15bd2eae}{%
+           family={Jelinek},
+           family_i={J\bibinitperiod},
+           given={Fred},
+           given_i={F\bibinitperiod}}}%
+        {{hash=710348c3678281a1e5b8aec28b16af38}{%
+           family={Klavans},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=783cb0b39cc95c8c51b13ca9a66f0623}{%
+           family={Liberman},
+           family_i={L\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+        {{hash=ec853a25808fcef936838291b7e77573}{%
+           family={Marcus},
+           family_i={M\bibinitperiod},
+           given={Mitch},
+           given_i={M\bibinitperiod}}}%
+        {{hash=72de8610268cbde4355ecf5cad475298}{%
+           family={Roukos},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=8d92007f37c9b9676cf8e1394ffb9ad0}{%
+           family={Santorini},
+           family_i={S\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{hash=5851189db01f2edb97399e96370355bd}{%
+           family={Strzalkowski},
+           family_i={S\bibinitperiod},
+           given={Tomek},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {the Workshop on Speech}%
+        {Natural Language pages 306–311}%
+      }
+      \strng{namehash}{a3caa0158daf8b7c183de4f47f3236a6}
+      \strng{fullhash}{d5124e32d30362df2847789abbe9a4b7}
+      \field{labelalpha}{Bla+91}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A procedure for quantitatively comparing the syntactic coverage of English grammars}
+      \field{year}{1991}
+    \endentry
+    \entry{collinspcfg}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b8bbd832353d6b8ffa73123369d39d55}{%
+           family={Collins},
+           family_i={C\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8bbd832353d6b8ffa73123369d39d55}
+      \strng{fullhash}{b8bbd832353d6b8ffa73123369d39d55}
+      \field{labelalpha}{Col}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf}}
+      \field{title}{Probabilistic Context-Free Grammars (PCFGs)}
+    \endentry
+    \entry{jurafsky2000speech}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd33d7a70284b5ead9c7985cb5c9929c}{%
+           family={Jurafsky},
+           family_i={J\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=7d1c7262a31a89cbc5dbdeb95fd7b4fb}{%
+           family={Martin},
+           family_i={M\bibinitperiod},
+           given={James\bibnamedelima H},
+           given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall PTR}%
+      }
+      \strng{namehash}{907cff53a2c379ae25525bfbb7211534}
+      \strng{fullhash}{907cff53a2c379ae25525bfbb7211534}
+      \field{labelalpha}{JM00}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition}
+      \field{year}{2000}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
