@@ -1,0 +1,10 @@
+// parse tree
+digraph {
+	0 [label=SENT]
+	1 [label=NP]
+		0 -> 1
+	2 [label=NPP]
+		1 -> 2
+	3 [label=Gutenberg]
+		2 -> 3
+}
